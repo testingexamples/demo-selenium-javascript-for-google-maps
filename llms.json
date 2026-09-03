@@ -1,0 +1,49 @@
+{
+  "name": "Demo Selenium JavaScript for Google Maps",
+  "summary": "A beginner-friendly walkthrough of Selenium WebDriver browser automation in JavaScript, written against Google Maps's well-known, publicly documented markup and URL encoding.",
+  "description": "This repo demonstrates Selenium WebDriver browser automation testing with JavaScript and Node.js, using Google Maps (https://www.google.com/maps) as a widely-known real-world example. It is written as three real, assertion-based checks: the page title, the search box and resulting URL, and a zoom-in interaction verified by reading the zoom level embedded in the URL (since Maps renders mostly to canvas). Because Google's Terms of Service restrict automated querying of Google Maps, this code is never run against the live site by this repo's own tooling, and must never be run automatically by CI or any other tooling.",
+  "repository": "https://github.com/testingexamples/demo-selenium-javascript-for-google-maps/",
+  "license": "GPL-2.0-or-later",
+  "sections": [
+    {
+      "title": "Docs",
+      "links": [
+        {
+          "title": "README",
+          "url": "./README.md",
+          "description": "Install, run, caution, and troubleshooting instructions."
+        },
+        {
+          "title": "Spec",
+          "url": "./spec/index.md",
+          "description": "Single source of truth for the exact three test scenarios, selectors, and expected strings."
+        },
+        {
+          "title": "Citation",
+          "url": "./CITATION.cff",
+          "description": "How to cite this software."
+        }
+      ]
+    },
+    {
+      "title": "Source",
+      "links": [
+        {
+          "title": "demo.js",
+          "url": "./src/demo.js",
+          "description": "The Selenium WebDriver demo script itself."
+        }
+      ]
+    },
+    {
+      "title": "Optional",
+      "links": [
+        {
+          "title": "AGENTS.md",
+          "url": "./AGENTS.md",
+          "description": "Instructions for AI coding agents working in this repo, including the non-negotiable against automated live runs."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Demo Selenium JavaScript for Google Maps
+
+> A beginner-friendly walkthrough of Selenium WebDriver browser automation in
+> JavaScript, written against the well-known, publicly documented markup and
+> URL encoding of Google Maps, and running three real assertion-based
+> checks. Because Google's Terms of Service restrict automated querying,
+> this code must never be run automatically against the live site.
+
+## Docs
+
+- [README](./README.md): Install, run, caution, and troubleshooting
+  instructions.
+- [Spec](./spec/index.md): Single source of truth for the exact three test
+  scenarios, selectors, and expected strings.
+- [Citation](./CITATION.cff): How to cite this software.
+
+## Source
+
+- [demo.js](./src/demo.js): The Selenium WebDriver demo script itself.
+
+## Optional
+
+- [AGENTS.md](./AGENTS.md): Instructions for AI coding agents working in
+  this repo, including the non-negotiable against automated live runs.

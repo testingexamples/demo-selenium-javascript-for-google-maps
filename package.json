@@ -1,0 +1,32 @@
+{
+  "name": "demo-selenium-javascript-for-google-maps",
+  "version": "1.0.0",
+  "description": "Demo Selenium JavaScript for Google Maps",
+  "keywords": [
+    "demo",
+    "selenium",
+    "javascript",
+    "test",
+    "google",
+    "google-maps"
+  ],
+  "homepage": "https://github.com/testingexamples/demo-selenium-javascript-for-google-maps#readme",
+  "bugs": {
+    "url": "https://github.com/testingexamples/demo-selenium-javascript-for-google-maps/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testingexamples/demo-selenium-javascript-for-google-maps.git"
+  },
+  "license": "(MIT OR Apache-2.0 OR GPL-2.0-only OR GPL-3.0-only OR BSD-3-Clause)",
+  "author": "Joel Parker Henderson <joel@joelparkerhenderson.com>",
+  "type": "module",
+  "main": "src/demo.js",
+  "scripts": {
+    "test": "node src/demo.js"
+  },
+  "dependencies": {
+    "chromedriver": "^135.0.2",
+    "selenium-webdriver": "^4.31.0"
+  }
+}
